@@ -16,11 +16,14 @@ public class About extends JFrame implements ActionListener{
        l1.setFont(new Font("Tahoma",Font.PLAIN,20));
        add(l1);
        
-       String s= "ROAMEASE is a comprehensive hotel management software solution designed to streamline and optimize various operations within a hotel environment. \n"+
-                  " \n" +
-                 "Developed using the Java programming language and leveraging the NetBeans IDE, this project offers a user-friendly interface and robust functionalities to cater to the diverse needs of hotel management.3 \n"+
-                  " \n" +
-                  "Some of its key features are Customer Management,Rooms Information and Booking,Checkout Functionality and Customization and Scalability.\n";
+       String s= """
+                 
+                 ROAMEASE is a comprehensive hotel management software solution designed to streamline and optimize various operations within a hotel environment. 
+                 \n
+                 Developed using the Java programming language and leveraging the NetBeans IDE, this project offers a user-friendly interface and robust functionalities to cater to the diverse needs of hotel management.3 
+                 \n
+                 Some of its key features are Customer Management,Rooms Information and Booking,Checkout Functionality and Customization and Scalability.
+                 """;
                    
                          
        TextArea area = new TextArea(s,10, 40, Scrollbar.VERTICAL);
